@@ -62,7 +62,7 @@ import java.util.List;
 		i18nPackageName="bi.meteorite.sentiment",
 		name="FilemgrCheckStep.Name",
 		description = "FilemgrCheckStep.TooltipDesc",
-		categoryDescription="i18n:org.pentaho.di.trans.step:BaseStep.Category.BigData"
+		categoryDescription="i18n:org.pentaho.di.trans.step:BaseStep.Category.Experimental"
 )
 public class NLPStepMeta extends BaseStepMeta implements StepMetaInterface {
 	/**

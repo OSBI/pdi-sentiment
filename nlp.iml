@@ -27,6 +27,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/jars/log4j-1.2.16.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/jars/ejml-0.24.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.3.1-models.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/javadocs/stanford-corenlp-3.3.1-javadoc.jar!/" />

@@ -10,6 +10,11 @@
 
   <dependencies defaultconf="default">
     <dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.3.1" transitive="false" changing="true"/>
+      <dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.3.1" transitive="false" changing="true">
+          <artifact name="stanford-corenlp" type="jar"/>
+          <artifact name="stanford-corenlp" type="jar" m:classifier="models"/>
+              </dependency>
+
       <dependency org="com.googlecode.efficient-java-matrix-library" name="ejml" rev="0.24"/>
 
       <!-- kettle dependencies -->

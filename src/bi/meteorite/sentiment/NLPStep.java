@@ -84,13 +84,8 @@ public class NLPStep extends BaseStep implements StepInterface {
 		meta = (NLPStepMeta) smi;
 		data = (NLPStepData) sdi;
 
-        boolean rCode = true;
-        if( super.init(meta, data)){
-
-            return rCode;
-        }
-        return false;
-	}
+        return super.init(meta, data);
+    }
 
     private String processString( String document){
         // shut off the annoying intialization messages
